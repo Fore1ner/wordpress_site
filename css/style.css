@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'EntezareZohoor2';
+    src: url('../fonts/Roboto-Regular.ttf'),url('../fonts/Roboto-Light.ttf'), url('../fonts/Roboto-Bold.ttf') format('svg');
+
+}
+.promo{
+    position: relative;
+    min-height: 802px;
+    background: url("../img/bg/main_bg.jpg") center/cover no-repeat;
+}
+
+.container{
+    
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    width:fit-content;
+    margin: 0 auto;
+    padding-top: 38px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.title{
+    margin-top: 53px;
+    position: relative;
+}
+.title_1 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f9bf3b;
+}
+.title_2{
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.title_2::after{
+
+    content: "";
+    width: 292px;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+}
+.title_2::before{
+
+    content: "";
+    width: 292px;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 0;
+}
+.stat{
+    margin-top: 22.5px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 133%;
+    text-align: left;
+    color: #fff;
+}
+.promo_btn{
+    width: 313px;
+    height: 72px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 114%;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.promo_find{
+    width:fit-content;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin:0 auto;
+    margin-top: 94.5px;
+    
+}
+.promo_find_img{
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.information{
+    height: 607px;
+    background-color: #EFEFEF;
+}
+.info_text{
+    padding-top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info_text1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #252525;
+}
+.yellow_line{
+    margin-top: 18px
+}
+.info_text2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 87%;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 18.5px;
+}
+.webinars{
+    margin-top: 45.5px;
+    display: flex;
+    
+    gap: 48px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #4a4a4a;
+}
+.webinar1 div, .webinar2 div, .webinar3 div{
+    margin-top: 26px;
+}
+.optimisation {
+    position: relative;
+    height: 547px;
+    
+}
+.optimisation_text{
+    margin-top: 108px;
+    
+}
+.optimisation_head{
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #299cbd;
+    text-align: right;
+}
+.optimisation_text{
+    
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 159%;
+    color: #4a4a4a;
+}
+.optimisation_woman{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left:150px;
+}
+.end{
+    min-height: 447px;
+    background: url(../img/bg/second_bg.jpg) center/cover no-repeat;
+}
+.end_text{
+    padding-top: 86px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #efefef;
+}
+.end_imgs{
+    padding-top: 39px;
+    display: flex;
+    gap: 115px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 118%;
+    text-align: center;
+    color: #efefef;
+}
+.present{
+    min-height: 631px;
+    background-color: #EFEFEF;
+}
+.present .container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.present_img{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.present_text{
+    margin-top: 45px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 143%;
+    text-align: center;
+    color: #252525;
+}
+.present_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 114%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.22);
+    width: 313px;
+    height: 72px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+}
+.first_webinar{
+    min-height: 512px;
+    background-color: #FFFFFF;
+}
+.first_webinar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fwt1{
+    margin-top: 36px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #252525;
+}
+.fwt2{
+    margin-top: 30px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #299cbd;
+}
+.fwt3{
+    margin-top: 24.5px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 87%;
+    text-align: center;
+    color: #4a4a4a;
+}
+.first_webinar_img{
+    margin-top: 89px;
+}
+.footer{
+    min-height: 169px;
+    background-color: black;
+}
+.footer .container{
+    padding-top: 55px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #888;
+}
